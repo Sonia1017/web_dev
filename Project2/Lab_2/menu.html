@@ -1,0 +1,79 @@
+<html>
+<body>
+<div id="navigation">
+        <ul> 
+            <li><a href="index.html">home</a>   
+		    <li><a class="menu1">form</a>		         
+                <ul> 
+				     <li><a href="get.html">GET</a></li>
+				     <li ><a href="post.html">POST</a></li> 
+					 <li><a href="file_upload.html">file upload</a></li>
+                </ul>
+            </li>
+            <li><a href="#">cookies</a>
+                <ul> 
+				     <li><a href="enabled_dis.php">enabled/disabled</a></li> 
+				     <li><a href="create_ret.php">create/retrieve</a></li> 
+					 <li><a href="modify.php">modify</a></li> 
+                     <li><a href="delete.php">delete</a></li> 
+				</ul> 
+            </li>
+            <li><a href="#">sessions</a>
+                <ul> 
+				     <li><a href="start.php">start</a></li> 
+				     <li><a href="get_modify.php">get/modify</a></li> 
+					 <li><a href="destroy_session.php">destroy</a></li> 
+			    </ul>
+            </li>
+            <li><a href="#">date/time</a>
+                <ul> 
+				     <li><a href="todayis.php">today is</a></li> 
+				     <li><a href="timezone.php">timezone</a> </li> 
+					 <li><a href="timestamp.php">timestamp</a></li> 
+			    </ul>
+            </li>
+			<li><a href="#">database</a>
+                <ul> 
+				     <li><a>(reserved)</a></li>
+			    </ul>
+            </li>
+			<li><a href="phpinfo.php">phpinfo</a>
+            </li>
+			
+        </ul>
+    </div>
+</body>
+</html>
+
+<style>
+ul {
+    width: 180px; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 10pt; 
+   }
+   li ul {
+    position: absolute; 
+    display: none; 
+    margin-left: 165px; 
+    margin-top: -2em; 
+   }
+   li a {
+    display: block;
+    padding: 5px; 
+    text-decoration: none; 
+    color: #666; 
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; 
+    border-bottom: none; 
+   }
+   li a:hover {
+    color: #ffe; 
+    background-color: #5488af; 
+   }
+   li:hover ul { 
+    display: block; 
+   }
+</style>
